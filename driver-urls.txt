@@ -1,1 +1,5 @@
 https://support.hp.com/us-en/drivers/selfservice/hp-pavilion-gaming-15-cx0000-laptop-pc/20284020/model/21910720?sku=3VT93UA
+
+install intel driver and support assistant
+and HP software to automate the driver-installing process.
+google "intel drivers" to get the intel driver and support assistant.
