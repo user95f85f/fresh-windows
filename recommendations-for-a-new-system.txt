@@ -1,0 +1,17 @@
+strongly recommended things to do with a fresh cygwin & get:
+1) lynx (to connect to google.com to search safely)
+        (to connect to youtube.com to search safely)
+2) nano (because why not)
+3) perl/php/python2/python3 (EG. to get youtube-dl running and
+   have a web server running on port 8080)
+4) vim/vim-doc (to quickly edit files)
+5) wget (a great way to download files from the Internet)
+
+for games I recommend:
+1) steam (for team fortress 2 et al)
+2) battle.net (for diablo 3)
+
+for a text editor I recommend getting Notepads App from the Windows Store
+then to launch Notepads App you just go Win+R to run and then "notepads"
+
+I recommend for high DPI systems to use Win++ to zoom in and Win+- to zoom out
