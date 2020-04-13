@@ -1,0 +1,6 @@
+System Properties: disable remote assistance
+Network configuration: network properties:
+  uncheck IPv6 and
+  uncheck File and Printer Sharing For Microsoft Networks
+Windows Update Delivery Optimizations:
+  disable "Allow downloads from other PCs"
