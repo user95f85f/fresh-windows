@@ -1,4 +1,5 @@
 Win+R should allow you to run common applications
+_battle_: run battle.net launcher
 _charmap_: run microsoft character map
 _calc_: run microsoft calculator
 _diablo_ (ie. C:\DiabloII\Diablo II.exe): play diablo 2
@@ -10,6 +11,7 @@ Install golang and use `go build __RUN_APPLICATION.go`
 put the output executable somewhere into your %PATH% (eg. C:\Go\bin\*)
 
 __RUN_APPLICATION.go
+
 package main
 
 import (
@@ -22,14 +24,17 @@ func main() {
 //"C:\DiabloII\Diablo II.exe" -w -direct -txt
 //cmd := exec.Command("C:\\cygwin64\\bin\\mintty.exe", "-")
 //err := os.Chdir("C:\\DiabloII")
-  err := os.Chdir("C:\\Program Files (x86)\\Steam")
+//err := os.Chdir("C:\\Program Files (x86)\\Steam")
+  err := os.Chdir("C:\\Program Files (x86)\\Battle.net")
   if err != nil {
     panic(err)
   }
 //cmd := exec.Command("C:\\DiabloII\\Diablo II.exe", "-w", "-direct", "-txt")
-  cmd := exec.Command("C:\\Program Files (x86)\\Steam\\Steam.exe")
+//cmd := exec.Command("C:\\Program Files (x86)\\Steam\\Steam.exe")
+  cmd := exec.Command("C:\\Program Files (x86)\\Battle.net\\Battle.net Launcher.exe")
+  
   log.Printf("Running command and waiting for it to finish...")
-//err2 := cmd.Run()
-  err2 := cmd.Start()
+  err2 := cmd.Run()
+  //err2 := cmd.Start()
   log.Printf("Command finished with error: %v", err2)
 }
