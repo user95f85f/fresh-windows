@@ -8,10 +8,28 @@ strongly recommended things to do with a fresh cygwin & get:
 5) wget (a great way to download files from the Internet)
 
 for games I recommend:
-1) steam (for team fortress 2 et al)
+1) steam (for team fortress 2, counter strike: global offensive, et al)
 2) battle.net (for diablo 3)
 
 for a text editor I recommend getting Notepads App from the Windows Store
 then to launch Notepads App you just go Win+R to run and then "notepads"
 
 I recommend for high DPI systems to use Win++ to zoom in and Win+- to zoom out
+
+<services disabled>
+Printer Spooler and Remote * stopped and disabled in 'services.msc'
+</services disabled>
+
+<performance tune-up>
+Personalization -> color tab -> disable Transparency
+Advanced System Settings -> performance -> set to best performance -> check enable font
+</performance tune-up>
+
+<applications>
+go to Applications and uninstall as many as you can
+go to Optional Windows Features and uninstall as many as you can
+</applications>
+
+<startup>
+open task manager and go to Startup tab and disable as many items as possible
+</startup>
