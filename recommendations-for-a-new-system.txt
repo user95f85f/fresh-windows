@@ -33,3 +33,7 @@ go to Optional Windows Features and uninstall as many as you can
 <startup>
 open task manager and go to Startup tab and disable as many items as possible
 </startup>
+
+<windows 10 privacy settings>
+search "privacy" enter settings and disable as much as you can
+</windows 10 privacy settings>
