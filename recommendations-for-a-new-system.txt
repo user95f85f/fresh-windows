@@ -17,7 +17,7 @@ then to launch Notepads App you just go Win+R to run and then "notepads"
 I recommend for high DPI systems to use Win++ to zoom in and Win+- to zoom out
 
 <services disabled>
-Printer Spooler and Remote * stopped and disabled in 'services.msc'
+Printer Spooler and Remote * and Workstation stopped and disabled in 'services.msc'
 </services disabled>
 
 <performance tune-up>
