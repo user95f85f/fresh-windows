@@ -8,8 +8,9 @@ strongly recommended things to do with a fresh cygwin & get:
 5) wget (a great way to download files from the Internet)
 
 for games I recommend:
-1) steam (for team fortress 2, counter strike: global offensive, et al)
-2) battle.net (for diablo 3)
+1) steam (for tree of savior)
+2) battle.net (for WoW)
+3) epic games launcher (for fortnite)
 
 for a text editor I recommend getting Notepads App from the Windows Store
 then to launch Notepads App you just go Win+R to run and then "notepads"
