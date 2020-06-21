@@ -38,3 +38,13 @@ open task manager and go to Startup tab and disable as many items as possible
 <windows 10 privacy settings>
 search "privacy" enter settings and disable as much as you can
 </windows 10 privacy settings>
+
+<set CMOS/Linux/BIOS time so that Linux can boot with correct time>
+Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation
+RealTimeIsUniversal=1
+</set*>
+
+<to show recycle bin>
+WIN+R-> shell:desktop
+cmd-> start shell:desktop
+</to*>
