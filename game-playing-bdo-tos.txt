@@ -1,0 +1,16 @@
+
+
+<BDO.bat>
+cd "C:\Program Files (x86)\Steam\steamapps\common\Black Desert Online"
+set __COMPAT_LAYER=RunAsInvoker
+"Black Desert Online Steam Launcher.exe"
+</BDO.bat>
+
+
+
+<TOS.bat>
+cd "C:\Program Files (x86)\Steam\steamapps\common\TreeOfSavior"
+set __COMPAT_LAYER=RunAsInvoker
+REM "C:\Program Files (x86)\Steam\Steam.exe" "steam://rungameid/372000"
+"release\patch\tos.exe"
+</TOS.bat>
