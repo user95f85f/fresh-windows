@@ -6,6 +6,11 @@ set __COMPAT_LAYER=RunAsInvoker
 "Black Desert Online Steam Launcher.exe"
 </BDO.bat>
 
+<BDO TODO>
+b key on the controller should be set to LeftStickEnter
+and LeftStickEnter should be what b was
+</BDO TODO>
+
 
 
 <TOS.bat>
