@@ -4,3 +4,6 @@ Network configuration: network properties:
   uncheck File and Printer Sharing For Microsoft Networks
 Windows Update Delivery Optimizations:
   disable "Allow downloads from other PCs"
+System properties
+ ->far right tab
+ ->disable remote connections
