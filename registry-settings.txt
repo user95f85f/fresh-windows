@@ -1,0 +1,7 @@
+
+
+Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation
+RealTimeIsUniversal=1
+
+Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection
+DisableRealtimeMonitoring=1
