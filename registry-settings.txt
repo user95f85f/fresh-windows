@@ -5,3 +5,6 @@ RealTimeIsUniversal=1
 
 Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection
 DisableRealtimeMonitoring=1
+and you'll want to disable Tamper Protection within
+  Windows Defender settings by clicking the
+  Windows Defender icon in the tray
