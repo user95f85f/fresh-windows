@@ -1,0 +1,19 @@
+<recommended>
+microsoft store cache reset:
+1) open up admin cmd
+2) WSReset.exe
+DNS cache reset:
+1) open up admin cmd
+2) ipconfig /flushDNS
+File explorer reset:
+1) open up file explorer with Windows+E
+2) View->Options->Clear button
+
+<optional>
+search "disk cleanup"
+run "disk cleanup"
+use the application.
+
+<optional>
+search "privacy settings"
+Location -> Clear button location history
