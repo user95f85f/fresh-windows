@@ -17,3 +17,10 @@ use the application.
 <optional>
 search "privacy settings"
 Location -> Clear button location history
+
+<optional>
+open microsoft edge
+go to "Settings"
+go to "Privacy, search, services"
+click the "Choose what to clear" button
+set preferences and clear all.
