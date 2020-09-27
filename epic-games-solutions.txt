@@ -1,0 +1,28 @@
+
+
+#open admin cmd
+netsh winsock reset
+#reboot
+
+#open admin cmd
+ipconfig /flushdns
+ipconfig /release
+ipconfig /renew
+
+#<extra doings>
+#Win+r -> %localappdata%
+#delete Epic Games Launcher folder
+#reboot
+#</*>
+
+# figure out system definiciencies
+SFC /SCANNOW
+DISM /ONLINE /CLEANUP-IMAGE /RESTOREHEALTH
+
+# get system information
+dxdiag
+MSInfo32
+
+# get network information
+(ipconfig /all & ping www.google.com & netsh firewall show config & netsh interface ipv4 show subinterfaces & netsh interface ipv4 show ipstats) > "%USERPROFILE%\Desktop\NetworkInfo.txt"
+
