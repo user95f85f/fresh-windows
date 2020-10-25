@@ -19,3 +19,10 @@ set __COMPAT_LAYER=RunAsInvoker
 REM "C:\Program Files (x86)\Steam\Steam.exe" "steam://rungameid/372000"
 "release\patch\tos.exe"
 </TOS.bat>
+
+
+<phantasy.bat>
+cd "C:\Program Files (x86)\Steam\steamapps\common\PHANTASYSTARONLINE2_NA_STEAM"
+set __COMPAT_LAYER=RunAsInvoker
+"pso2_bin\pso2launcher.exe"
+</phantasy.bat>
